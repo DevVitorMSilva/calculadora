@@ -28,14 +28,55 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #C2C3C3;
 }
 
 .container {
-    border: solid 2px black;
-    height: 60vh;
-    width: 30vw;
+    border: solid 3px black;
+    border-radius: 2%;
+    height: 65vh;
+    width: 25vw;
+    background-color: #242525;
+    box-shadow: 10px 10px 20px black;
+}
+
+.visor {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+#visor {
+    padding: 2vh 4vh;
+    font-size: x-large;
+    
 }
 
 
+
+.rows {
+    text-align: center;
+}
+
+button {
+    height: 8vh;
+    width: 4vw;
+    margin: 0.75vh 0.5vw;
+    font-size: x-large;
+    border-radius: 10%;
+    background-color: #ccc;
+    border: solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #999;
+}
+
+.botaoMaior {
+    height: 8vh;
+    width: 9.25vw;
+}
 
 
